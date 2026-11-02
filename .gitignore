@@ -1,0 +1,12 @@
+#Quartus build output
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.bak
+
+#Verilator / simulation output
+obj_dir/
+*.vcd
+*.fst
