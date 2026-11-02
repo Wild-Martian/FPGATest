@@ -1,12 +1,21 @@
-#Quartus build output
+# Quartus build output (regenerated every compile)
 db/
 incremental_db/
 output_files/
 simulation/
+greybox_tmp/
+
 *.qws
 *.bak
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.sld
+*.pin
 
-#Verilator / simulation output
+# Simulation output
 obj_dir/
 *.vcd
 *.fst
