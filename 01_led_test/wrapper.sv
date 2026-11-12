@@ -38,13 +38,13 @@ clock pll_inst(
     logic [23:0] count = '0;
 
     always_ff @(posedge clk_12m288) begin
-        if(!pll_locked) begin
+        if(pll_locked) begin
             count <= count + 1'b1;
         end
 
     end
     
-    assign LEDG[8] = count[23];
+    assign LEDG[8] = count[22];
 
     // -------------------------------------------------------------------------
     // Button check: KEY is active-low, so invert it.
