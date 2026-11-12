@@ -108,3 +108,6 @@ set_location_assignment PIN_AC28 -to SW[1]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[1]
 set_location_assignment PIN_AB28 -to SW[0]
 set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[0]
+
+set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.1 Standard Edition"
+set_global_assignment -name QIP_FILE clock.qip
